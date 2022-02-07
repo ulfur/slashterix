@@ -1,4 +1,3 @@
-'use strict'
 const _sx_is_node = (v, prop, n = undefined) => n ? n[prop] = v : v,
       _sx_is_callable = (data, node, callable) => (data || node) ? callable(data) : callable,
       _sx_template = (template, data = undefined, node = undefined) => _sx_is_node(_sx_is_callable(data, node,context => template(context)), 'innerHTML', node),

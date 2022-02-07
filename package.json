@@ -1,8 +1,8 @@
 {
-  "name": "slashterix",
+  "name": "slashterix-templates",
   "version": "1.0.0",
   "description": "the comment based \"template system\" for ES6",
-  "main": "index.js",
+  "main": "src/gulp-slashterix.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
