@@ -1,6 +1,6 @@
 {
   "name": "slashterix-templates",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "the comment based \"template system\" for ES6",
   "main": "src/gulp-slashterix.js",
   "scripts": {

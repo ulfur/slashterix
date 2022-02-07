@@ -19,6 +19,6 @@ const _inject = (opts = {}, buffer) => {
 };
 
 module.exports = {
-    slashterix: (opts = {}) => through.obj((file, enc, f) => f(null, _slashterix(opts, file))),
-    use_slashterix: (opts = {}) => through.obj((file, enc, f) => f(null, _inject(opts, file)))
+    parse: (opts = {}) => through.obj((file, enc, f) => f(null, _slashterix(opts, file))),
+    use: (opts = {}) => through.obj((file, enc, f) => f(null, _inject(opts, file)))
 }
