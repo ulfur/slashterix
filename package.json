@@ -1,0 +1,24 @@
+{
+  "name": "slashterix",
+  "version": "1.0.0",
+  "description": "the comment based \"template system\" for ES6",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ulfur/slashterix.git"
+  },
+  "keywords": [
+    "es6",
+    "templates",
+    "comments"
+  ],
+  "author": "ulfurk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ulfur/slashterix/issues"
+  },
+  "homepage": "https://github.com/ulfur/slashterix#readme"
+}
