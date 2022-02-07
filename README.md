@@ -14,7 +14,7 @@ element.innerHTML = /*template with data
             endif
         endfor
      </ul>
-
+*/
 ```
 
 slashterix-templates may or may not be a good idea but can be useful if you are writing a pure js component and need a small amount of basic templating. The idea is based on template strings and effectively adds nothing but "syntactic sugar". It requires a pre-processor to parse the js files and convert ```/*templates``` into template strings and slashtrix flow statements. Currently a pre-processor has only been developed for gulp.
