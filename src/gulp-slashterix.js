@@ -11,7 +11,7 @@ const _slashterix = (opts = {}, buffer) => {
 };
 
 const _inject = (opts = {}, buffer) => {
-  let slashterix_lib = fs.readFileSync('./src/slashterix.js'),
+  let slashterix_lib = fs.readFileSync(`${__dirname}/slashterix.js`),
       code = buffer.contents.toString(),
       combined = `${slashterix_lib}\n${code}\n`;
   buffer.contents = Buffer.alloc(combined.length + 1, combined + '\n');
